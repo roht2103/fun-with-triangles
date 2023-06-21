@@ -22,6 +22,11 @@ h4{
 
 a{
     text-decoration: none;
+    display: flex;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    font-family: "Poppins";
     color: black;
 }
 
@@ -70,4 +75,8 @@ footer{
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+
+.footer-links a{
+    /* width: 1rem  ; */
 }
