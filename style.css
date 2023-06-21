@@ -13,3 +13,7 @@ body{
     color: black;
     background-image: linear-gradient(to right, #c6ffdd, #fbd786, #f7797d);
 }
+
+.container{
+    margin-top: 2rem;
+}
