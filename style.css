@@ -60,3 +60,14 @@ hr{
     border-radius: 9px;
     color: gray;
 }
+
+footer{
+    display: block;
+    margin-top: 2rem;
+}
+
+.footer-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
