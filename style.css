@@ -63,7 +63,7 @@ hr{
 
 footer{
     display: block;
-    margin-top: 2rem;
+    margin-top: 2rem    ;
 }
 
 .footer-links{
@@ -95,7 +95,7 @@ input{
     margin: 1rem;
 }
 form{
-    margin: 4rem;
+    margin: 1rem;
 }
 
 button{
@@ -104,6 +104,7 @@ button{
     padding: .5rem 1rem;
     cursor: pointer;
     border: 0px;
+    margin: 2rem;
 }
 
 button:hover{
@@ -113,10 +114,13 @@ button:hover{
 }
 
 .output{
+    line-height: 5rem;
     border: 2px solid;
-    height: fit-content;
-    width: fit-content;
-    margin: 2rem;
+    height: 5rem;
+    width: 50%;
+    font-size: 1.5rem;
+    /* padding: rem; */
+    /* margin: 1rem; */
 }
 
 /* form div{

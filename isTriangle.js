@@ -10,7 +10,7 @@ function formHandler(e) {
   validateData(angle1.value, angle2.value, angle3.value);
 }
 
-// output.style.display = "none";
+output.style.visibility = "hidden";
 
 function validateData(a1, a2, a3) {
   if (a1 && a2 && a3) {
@@ -26,11 +26,11 @@ function isTriangle(a1, a2, a3) {
   console.log(sum);
   if (sum === 180) {
     console.log("Yuhu! these angles can make a triangle");
-    output.style.display = "block";
+    output.style.visibility = "inherit";
     output.innerHTML="Yuhu! these angles can make a triangle";
   } else {
     console.log("Oops! these angles can't make a triangle");
-    output.style.display = "block";
+    output.style.visibility = "inherit";
     output.innerHTML="Oops! these angles can't make a triangle";
   }
 }
