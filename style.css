@@ -80,3 +80,10 @@ footer{
 .footer-links a{
     /* width: 1rem  ; */
 }
+
+.section-div{
+    display: flex;
+    justify-content:center ;  
+    transform: 0.5s;
+    flex-wrap: wrap;
+}
