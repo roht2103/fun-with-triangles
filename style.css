@@ -96,6 +96,14 @@ form{
 
 button{
     font-size: 1.4rem;
+    border-radius: 1.5rem;
     padding: .5rem 1rem;
+    cursor: pointer;
     border: 0px;
+}
+
+button:hover{
+    background-color:  rgba(238,174,202,1);
+    color: white;
+    transition: .5s;
 }
