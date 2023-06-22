@@ -84,3 +84,7 @@ footer{
     transform: 0.5s;
     flex-wrap: wrap;
 }
+
+.container p{
+    margin: 2rem;
+}
