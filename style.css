@@ -90,6 +90,7 @@ input{
     text-align: center;
     border:0 ;
     height: 3rem;
+    /* width: 10rem; */
     font-size: 1rem;
     margin: 1rem;
 }
@@ -117,3 +118,8 @@ button:hover{
     width: fit-content;
     margin: 2rem;
 }
+
+/* form div{
+    display: flex;
+    flex-wrap: nowrap;
+} */
