@@ -2,7 +2,7 @@ let height = document.getElementById("height");
 let width = document.getElementById("width");
 let output = document.querySelector(".output");
 let form = document.querySelector("form");
-
+output.style.visibility="hidden"
 form.addEventListener("submit", formHandler);
 
 function formHandler(e) {
@@ -26,6 +26,7 @@ function checkHypotenus(h,w){
 
     let hypotenus=Math.pow(h,2)+Math.pow(w,2);
     // console.log(Math.sqrt(hypotenus))
+output.style.visibility="inherit"
     output.innerHTML="Hypotenuse: "+hypotenus
 
 }
