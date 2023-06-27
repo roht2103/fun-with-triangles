@@ -16,7 +16,7 @@ function validateData(h,w){
         checkHypotenus(h,w);
     }
     else{
-        alert("error");
+        alert("enter height and width");
     }
 }
 
