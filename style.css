@@ -192,3 +192,45 @@ button:hover{
     display: none;
     border-radius:1rem ;
 }
+
+.quize-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    width: 95%;
+    /* border: 2px solid black; */
+}
+.quize-container p{
+    font-size: 1.3rem;
+}
+.quize-container form{
+    margin: auto;
+}
+.quize-container .form-div{
+    /* border: 2px solid red; */
+    width: fit-content;
+}
+.quize-container form section{
+    display: flex; 
+    justify-content: flex-start; 
+    align-items: center;
+    flex-wrap: wrap;
+    font-size: 1.3rem;
+    width: 100%;
+    /* border: 1px solid rebeccapurple; */
+    margin-left: 0%;
+}
+.quize-container form div label{
+    margin: 0rem 1.5rem 0rem 0rem;
+}
+.quize-container form div input{
+    height: 1rem;
+    margin: 0%;
+    width: 1rem;
+}
+.quize-container form div{
+    border-bottom: 1px solid black;
+    padding: .5rem;
+    text-align: start;
+}
