@@ -1,5 +1,3 @@
-import Swal from 'sweetalert2/dist/sweetalert2.js'
-
 let areaBH = document.getElementById("areaBH");
 let areadSides = document.getElementById("areadSides");
 let areaSideAngle = document.getElementById("areaSideAngle");
@@ -34,3 +32,16 @@ areadSides.addEventListener("submit", (e) => {
     alert("Sum of two sides must be greater than the third side");
   }
 });
+
+
+areaSideAngle.addEventListener("submit",(e)=>{
+    e.preventDefault();
+    let side1=Number(document.getElementById("side1").value);
+    let side2=Number(document.getElementById("side2").value);
+    let angle=Number(document.getElementById("angle").value);
+    const angleInRadians = (angle * Math.PI) / 180;
+    let area= (1 / 2) * side1 * side2 * Math.sin(angleInRadians);
+    // console.log(area)
+    answerAreaAngleSides.style.display="block";
+    answerAreaAngleSides.innerHTML="Area: "+area
+})

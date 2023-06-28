@@ -173,9 +173,9 @@ button:hover{
     margin: 1rem 0rem;
 }
 
-.contents form{
+.contents form div{
     /* border: 5px solid green; */
-    display: block;
+    display: flex;
     /* flex-direction: column; */
     justify-content: center;
     flex-wrap: wrap;
