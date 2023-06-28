@@ -1,29 +1,36 @@
-let areaBH=document.getElementById("areaBH");
-let areadSides=document.getElementById("areadSides");
-let areaSideAngle=document.getElementById("areaSideAngle");
+import Swal from 'sweetalert2/dist/sweetalert2.js'
 
-let answerAreaBH=document.querySelector(".answerAreaBH");
-let answerAreaSides=document.querySelector(".answerAreaSides");
-let answerAreaAngleSides=document.querySelector(".answerAreaAngleSides");
+let areaBH = document.getElementById("areaBH");
+let areadSides = document.getElementById("areadSides");
+let areaSideAngle = document.getElementById("areaSideAngle");
 
-areaBH.addEventListener("submit" , (e)=>{
-    e.preventDefault();
-    let base=Number(document.getElementById("base").value);
-    let height=Number(document.getElementById("height").value);
-    let area=base*height;
-    answerAreaBH.style.display="block"
-    answerAreaBH.innerHTML="Area: "+area
-    // console.log(area)
-})
+let answerAreaBH = document.querySelector(".answerAreaBH");
+let answerAreaSides = document.querySelector(".answerAreaSides");
+let answerAreaAngleSides = document.querySelector(".answerAreaAngleSides");
 
-areadSides.addEventListener("submit",(e)=>{
-    e.preventDefault();
-    let a=Number(document.getElementById("a").value);
-    let b=Number(document.getElementById("b").value);
-    let c=Number(document.getElementById("c").value);
-    let s=(a+b+c)/2;    //  s=Semi-Perimeter
-    let area=Math.sqrt(s*(s-a)*(s-b)*(s-c));
-    // console.log(area);
-    answerAreaSides.style.display="block"
-    answerAreaSides.innerHTML="Area: "+area;
-})
+areaBH.addEventListener("submit", (e) => {
+  e.preventDefault();
+  let base = Number(document.getElementById("base").value);
+  let height = Number(document.getElementById("height").value);
+  let area = base * height;
+  answerAreaBH.style.display = "block";
+  answerAreaBH.innerHTML = "Area: " + area;
+  // console.log(area)
+});
+
+areadSides.addEventListener("submit", (e) => {
+  e.preventDefault();
+
+  let a = Number(document.getElementById("a").value);
+  let b = Number(document.getElementById("b").value);
+  let c = Number(document.getElementById("c").value);
+  if (a + b > c && b + c > a && a + c > b) {
+    let s = (a + b + c) / 2; //  s=Semi-Perimeter
+    let area = Math.sqrt(s * (s - a) * (s - b) * (s - c));
+    console.log(area);
+    answerAreaSides.style.display = "block";
+    answerAreaSides.innerHTML = "Area: " + area;
+  } else {
+    alert("Sum of two sides must be greater than the third side");
+  }
+});
