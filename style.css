@@ -226,6 +226,7 @@ button:hover{
 }
 .quize-container form div input{
     height: 1rem;
+    cursor: pointer;
     margin: 0%;
     width: 1rem;
 }
