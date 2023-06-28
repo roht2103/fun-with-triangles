@@ -163,6 +163,9 @@ button:hover{
 .contents{
     /* border: 2px solid red; */
     margin: 0rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .contents p{
@@ -172,14 +175,20 @@ button:hover{
 
 .contents form{
     /* border: 5px solid green; */
-    display: flex;
+    display: block;
+    /* flex-direction: column; */
     justify-content: center;
     flex-wrap: wrap;
     padding: .5rem;
 }
 
-.contents .area1,.area2,.area3{
+.answerAreaBH,.answerAreaSides,.answerAreaAngleSides{
     font-weight: 900;
-    font-size: 1.2rem;
+    font-size: 1.5rem;
+    /* border: 2px solid black; */
+    height: fit-content;
+    width: 20vw;
+    align-self: center;
     display: none;
+    border-radius:1rem ;
 }
