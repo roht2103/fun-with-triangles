@@ -24,7 +24,7 @@ function checkHypotenus(h,w){
     h=Number(h);
     w=Number(w);
 
-    let hypotenus=Math.pow(h,2)+Math.pow(w,2);
+    let hypotenus=Math.sqrt(Math.pow(h,2)+Math.pow(w,2));
     // console.log(Math.sqrt(hypotenus))
 output.style.visibility="inherit"
     output.innerHTML="Hypotenuse: "+hypotenus
