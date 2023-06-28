@@ -15,3 +15,15 @@ areaBH.addEventListener("submit" , (e)=>{
     answerAreaBH.innerHTML="Area: "+area
     // console.log(area)
 })
+
+areadSides.addEventListener("submit",(e)=>{
+    e.preventDefault();
+    let a=Number(document.getElementById("a").value);
+    let b=Number(document.getElementById("b").value);
+    let c=Number(document.getElementById("c").value);
+    let s=(a+b+c)/2;    //  s=Semi-Perimeter
+    let area=Math.sqrt(s*(s-a)*(s-b)*(s-c));
+    // console.log(area);
+    answerAreaSides.style.display="block"
+    answerAreaSides.innerHTML="Area: "+area;
+})
