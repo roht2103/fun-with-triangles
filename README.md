@@ -5,9 +5,9 @@ Welcome to the "Fun with Triangles" repository! This is a collection of interact
 ## Table of Contents
 
 - [Quiz](https://github.com/roht2103/fun-with-triangles/blob/main/quize.html)
-- [Calculate Triangle Area]((https://github.com/roht2103/fun-with-triangles/blob/main/solve.html))
-- [Find Hypotenuse]((https://github.com/roht2103/fun-with-triangles/blob/main/checkHypotenus.html))
-- [Check Triangle Validity]((https://github.com/roht2103/fun-with-triangles/blob/main/isTriangle.html))
+- [Calculate Triangle Area](https://github.com/roht2103/fun-with-triangles/blob/main/solve.html)
+- [Find Hypotenuse](https://github.com/roht2103/fun-with-triangles/blob/main/checkHypotenus.html)
+- [Check Triangle Validity](https://github.com/roht2103/fun-with-triangles/blob/main/isTriangle.html)
 - [How to Use](#how-to-use)
 - [Contributing](#contributing)
 - [License](#license)
