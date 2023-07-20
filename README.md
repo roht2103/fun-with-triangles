@@ -4,10 +4,10 @@ Welcome to the "Fun with Triangles" repository! This is a collection of interact
 
 ## Table of Contents
 
-- [Quiz](#quiz)
-- [Calculate Triangle Area](#calculate-triangle-area)
-- [Find Hypotenuse](#find-hypotenuse)
-- [Check Triangle Validity](#check-triangle-validity)
+- [Quiz](https://github.com/roht2103/fun-with-triangles/blob/main/quize.html)
+- [Calculate Triangle Area]([calculate-triangle-area](https://github.com/roht2103/fun-with-triangles/blob/main/solve.html))
+- [Find Hypotenuse]([find-hypotenuse](https://github.com/roht2103/fun-with-triangles/blob/main/checkHypotenus.html))
+- [Check Triangle Validity]([check-triangle-validity](https://github.com/roht2103/fun-with-triangles/blob/main/isTriangle.html))
 - [How to Use](#how-to-use)
 - [Contributing](#contributing)
 - [License](#license)
